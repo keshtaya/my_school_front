@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "P:\\my_school_front\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\my_school_front.bundle.scp.css",
+      "PackagePath": "staticwebassets\\my_school_front.bundle.scp.css"
+    },
+    {
+      "Id": "P:\\my_school_front\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "P:\\my_school_front\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "P:\\my_school_front\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "P:\\my_school_front\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.my_school_front.props",
+      "PackagePath": "build\\my_school_front.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.my_school_front.props",
+      "PackagePath": "buildMultiTargeting\\my_school_front.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.my_school_front.props",
+      "PackagePath": "buildTransitive\\my_school_front.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.my_school_front.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

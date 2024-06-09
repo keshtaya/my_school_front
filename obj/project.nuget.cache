@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "y/bEWjLjB6ixHpmwbbx48woDWen6SNDgNFkLXgS0lB4PuLB6X2s8BrtWBerkaDN7mkfoO9EIm4qCUEABrOXqBQ==",
+  "success": true,
+  "projectFilePath": "P:\\my_school_front\\my_school_front.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\keshta\\.nuget\\packages\\restsharp\\111.2.0\\restsharp.111.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

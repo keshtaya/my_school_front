@@ -1,0 +1,41 @@
+@inject StudentsFetcher StudentsFetcher;
+
+@if (students.Count() == 0)
+{
+    <p style="color: blue;">Loading ...</p>
+}
+else
+{
+    <div class="container">
+        <div class="row">
+            @foreach (var student in students)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">@student.Name</h5>
+                            <h6 class="mb-2 text-muted text-center">@student.Email</h6>
+                            <h6 class="mb-2 text-muted text-center">@student.Address</h6>
+                        </div>
+                        <small class="text-muted">
+                            <button class="btn btn-primary" @onclick="@(() => Console.WriteLine("Button Pressed"))">
+                                Edit
+                            </button>
+
+                     
+                        </small>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+}
+
+@code {
+    private List<Student> students = [];
+
+    protected override async Task OnInitializedAsync()
+    {
+        students = await StudentsFetcher.FetchStudents();
+    }
+}
